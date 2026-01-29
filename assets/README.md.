@@ -1,0 +1,30 @@
+# Simulador de Férias (What‑If) — HTML/JS
+
+⚠️ **SIMULAÇÃO — NÃO OFICIAL**  
+Este projeto é um simulador e não interfere em férias reais, nem integra com RH/ERP/Outlook.
+
+## Recursos
+- Login por e-mail (cadastro local em `assets/data.seed.js`)
+- Grupos:
+  - ECOMP Guararema
+  - ECOMP Taubaté
+  - Instalação
+  - Escritório
+  - Gestor
+- Cenários (Rascunho/Fechado)
+- Períodos com validação:
+  - OK
+  - Conflito (capacidade do grupo excedida)
+  - Bloqueado (blackout)
+- Calendário do grupo (contagem ou nomes)
+- Configurações do Gestor (capacidade e bloqueios)
+
+## Como rodar localmente
+> Por ser ES modules, use um servidor local (não abra o arquivo direto).
+
+### Opção A: VS Code
+Instale a extensão **Live Server** e clique em "Go Live".
+
+### Opção B: Python (simples)
+```bash
+python -m http.server 5500
